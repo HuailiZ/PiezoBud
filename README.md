@@ -7,7 +7,8 @@ This directory contains the PCB design for PiezoBud. It includes the 2 seperate 
 - EDA design files are in XXX.
 - Fabrication output (Gerbers) are in XXX. Suggested BOM lists are in XXX.
 - Schematic PDF can be found in XXX.
-Errata: The current design includes minor issues that can be improved in future revisions. While these do not impact functionality, they do affect robustness. Specifically, there is an impedance mismatch between the piezoelectric sensor and the amplifier chip. To enhance performance, consider using a matched piezo-amplifier pair.
+  
+**Errata**: The current design includes minor issues that can be improved in future revisions. While these do not impact functionality, they do affect robustness. Specifically, there is an impedance mismatch between the piezoelectric sensor and the amplifier chip. To enhance performance, consider using a matched piezo-amplifier pair.
 ## Hardware Setup
 1. Go to **[EasyEDA](https://easyeda.com/)**
 2. Upload files.
