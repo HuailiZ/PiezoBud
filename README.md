@@ -4,11 +4,16 @@ With the advancement of AI-powered personal voice assistants, speaker authentica
 on the local smartphone and protect against malicious attacks. Our exploratory study, involving 85 participants, demonstrates the effectiveness of PiezoBud in various everyday scenarios, including ambient noise, body movement, and in-ear media playing. Using only 15 seconds of enrollment data, PiezoBud achieves an Equal Error Rate (EER) of 1.05% and attain a mean authentication latency of 0.06 seconds on mobile devices. We also evaluate PiezoBud’s effectiveness in countering challenging adaptive attack scenarios and its overall performance in various real-world situations. Our evaluation highlights that PiezoBud stands out as a practical, resilient, responsive, and secure option for earbuds users.
 ## Contents
 This directory contains the PCB design for PiezoBud. It includes the 2 seperate board: **main board** and **amplification board**. The PCB was designed by **[EasyEDA](https://easyeda.com/)**.
-- EDA design files are in XXX.
-- Fabrication output (Gerbers) are in XXX. Suggested BOM lists are in XXX.
-- Schematic PDF can be found in XXX.
+- EDA design files are in Materials.
+- Fabrication output (Gerbers) are in Materials/Gerber. Suggested BOM lists are in Materials/BOM. Suggested pick and place files are in Materials/PickandPlace.
+- Schematic PDF can be found in Materials/Schematics.
   
 **Errata**: The current design includes minor issues that can be improved in future revisions. While these do not impact functionality, they do affect robustness. Specifically, there is an impedance mismatch between the piezoelectric sensor and the amplifier chip. To enhance performance, consider using a matched piezo-amplifier pair.
 ## Hardware Setup
 1. Go to **[EasyEDA](https://easyeda.com/)**
-2. Upload files.
+2. Upload files under EasyEDA.
+
+![image](https://github.com/user-attachments/assets/fa35d608-f243-449d-b9be-b3ffddb6606e)
+
+
+**Note**: We also provided materals compatible with **Altium**. However, because the different file format and object design, the format translation will has some different, please check carefully at Altium Designer after exported. We are are not responsible for any loss of fabrication due to export differences.
