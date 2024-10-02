@@ -16,4 +16,4 @@ This directory contains the PCB design for PiezoBud. It includes 2 seperate boar
 ![image](https://github.com/user-attachments/assets/fa35d608-f243-449d-b9be-b3ffddb6606e)
 
 
-**Note**: We also provided materals compatible with **Altium**. However, because the different file format and object design, the format translation will has some different, please check carefully at Altium Designer after exported. We are are not responsible for any loss of fabrication due to export differences.
+**Note**: We also provided materals compatible with **Altium**. However, due to the different file format and object design, the format translation has some differences, please check carefully at Altium Designer after imported. We are are not responsible for any loss of fabrication due to export differences.
